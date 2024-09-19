@@ -1,0 +1,17 @@
+artic_animals = ["penguin", "elephant", "polar bear", "walrus", "tiger", "reindeer"]
+print(artic_animals)
+del artic_animals[4]
+print(artic_animals)
+artic_animals.remove("elephant")
+#print(artic_animals.remove("elephant"))
+print(artic_animals)
+artic_animals.append("artic fox")
+#print(artic_animals.append("artic fox"))
+artic_animals.insert(2, "snowy owl")
+#print(artic_animals.insert(3, "snowy owl"))
+artic_animals.sort()
+#print(artic_animals.sort())
+print(artic_animals)
+print(artic_animals.index("reindeer"))
+pop_animal = artic_animals.pop()
+print(pop_animal)
